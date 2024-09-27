@@ -1,0 +1,32 @@
+{
+  "ethereum": {
+    "PullOracle": "0x28aA1cD7114395E7a055419497135199228b8D76"
+  },
+  "mantle": {
+    "PullOracle": "0x28aA1cD7114395E7a055419497135199228b8D76"
+  },
+  "binance": {
+    "PullOracle": "0x28aA1cD7114395E7a055419497135199228b8D76"
+  },
+  "base": {
+    "PullOracle": "0x28aA1cD7114395E7a055419497135199228b8D76"
+  },
+  "arbitrum": {
+    "PullOracle": "0x23298A30A3aDfb9FC002A1Fd013e59ac9C2124c1"
+  },
+  "blast": {
+    "PullOracle": "0x28aA1cD7114395E7a055419497135199228b8D76"
+  },
+  "linea": {
+    "PullOracle": "0x28aA1cD7114395E7a055419497135199228b8D76"
+  },
+  "core": {
+    "PullOracle": "0x28aA1cD7114395E7a055419497135199228b8D76"
+  },
+  "xlayer": {
+    "PullOracle": "0x28aA1cD7114395E7a055419497135199228b8D76"
+  },
+  "optimism": {
+    "PullOracle": "0x28aA1cD7114395E7a055419497135199228b8D76"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "price-oracle-sc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitlab.ent-dx.com:entangle/price-oracle-sc.git",
+  "author": "Alexandr Kolupaev <a.kolupaev@entangle.fi>",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/merkle-tree": "^1.0.6",
+    "axios": "^1.7.2",
+    "hardhat": "^2.13.0"
+  },
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat compile && hardhat deploy-stream-data"
+  },
+  "devDependencies": {
+    "@entangle_protocol/oracle-sdk": "^1.5.15",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.6",
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-ignition": "^0.15.0",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.10",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.8",
+    "@openzeppelin/contracts": "^4.9.6",
+    "@openzeppelin/contracts-upgradeable": "^4.9.6",
+    "@openzeppelin/hardhat-upgrades": "^3.0.5",
+    "@typechain/ethers-v6": "0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/axios": "^0.14.0",
+    "@types/chai": "^4.3.1",
+    "@types/inquirer": "^8.0.0",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.7.13",
+    "chai": "^4.3.7",
+    "console-table-printer": "^2.12.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "hardhat-gas-reporter": "2.1.0",
+    "inquirer": "^8.0.0",
+    "lodash": "^4.17.21",
+    "solidity-coverage": "^0.8.0",
+    "ts-node": "^10.8.2",
+    "typechain": "^8.3.2",
+    "typescript": "^4.9.5"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}

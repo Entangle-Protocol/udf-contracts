@@ -1,0 +1,837 @@
+{
+    "PriceSpotterProcessingLib": {
+        "0x2a0acc6a": {
+            "Type": "function",
+            "Name": "ADMIN",
+            "Params": [],
+            "Sighash": "ADMIN()"
+        },
+        "0x3012e1b9": {
+            "Type": "function",
+            "Name": "DATA_SPOTTER",
+            "Params": [],
+            "Sighash": "DATA_SPOTTER()"
+        },
+        "0xa217fddf": {
+            "Type": "function",
+            "Name": "DEFAULT_ADMIN_ROLE",
+            "Params": [],
+            "Sighash": "DEFAULT_ADMIN_ROLE()"
+        },
+        "0x12b495a8": {
+            "Type": "function",
+            "Name": "delta",
+            "Params": [],
+            "Sighash": "delta()"
+        },
+        "0x6938ffc1": {
+            "Type": "function",
+            "Name": "finalizeData",
+            "Params": [
+                "bytes32",
+                "bytes[]",
+                "address[]"
+            ],
+            "Sighash": "finalizeData(bytes32,bytes[],address[])"
+        },
+        "0x248a9ca3": {
+            "Type": "function",
+            "Name": "getRoleAdmin",
+            "Params": [
+                "bytes32"
+            ],
+            "Sighash": "getRoleAdmin(bytes32)"
+        },
+        "0x2f2ff15d": {
+            "Type": "function",
+            "Name": "grantRole",
+            "Params": [
+                "bytes32",
+                "address"
+            ],
+            "Sighash": "grantRole(bytes32,address)"
+        },
+        "0x91d14854": {
+            "Type": "function",
+            "Name": "hasRole",
+            "Params": [
+                "bytes32",
+                "address"
+            ],
+            "Sighash": "hasRole(bytes32,address)"
+        },
+        "0x935fce7c": {
+            "Type": "function",
+            "Name": "initialize",
+            "Params": [
+                "address[1]"
+            ],
+            "Sighash": "initialize(address[1])"
+        },
+        "0x127309e1": {
+            "Type": "function",
+            "Name": "maxDelta",
+            "Params": [],
+            "Sighash": "maxDelta()"
+        },
+        "0x8da5cb5b": {
+            "Type": "function",
+            "Name": "owner",
+            "Params": [],
+            "Sighash": "owner()"
+        },
+        "0x52d1902d": {
+            "Type": "function",
+            "Name": "proxiableUUID",
+            "Params": [],
+            "Sighash": "proxiableUUID()"
+        },
+        "0x715018a6": {
+            "Type": "function",
+            "Name": "renounceOwnership",
+            "Params": [],
+            "Sighash": "renounceOwnership()"
+        },
+        "0x36568abe": {
+            "Type": "function",
+            "Name": "renounceRole",
+            "Params": [
+                "bytes32",
+                "address"
+            ],
+            "Sighash": "renounceRole(bytes32,address)"
+        },
+        "0xd547741f": {
+            "Type": "function",
+            "Name": "revokeRole",
+            "Params": [
+                "bytes32",
+                "address"
+            ],
+            "Sighash": "revokeRole(bytes32,address)"
+        },
+        "0x01ffc9a7": {
+            "Type": "function",
+            "Name": "supportsInterface",
+            "Params": [
+                "bytes4"
+            ],
+            "Sighash": "supportsInterface(bytes4)"
+        },
+        "0xf2fde38b": {
+            "Type": "function",
+            "Name": "transferOwnership",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "transferOwnership(address)"
+        },
+        "0x3659cfe6": {
+            "Type": "function",
+            "Name": "upgradeTo",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "upgradeTo(address)"
+        },
+        "0x4f1ef286": {
+            "Type": "function",
+            "Name": "upgradeToAndCall",
+            "Params": [
+                "address",
+                "bytes"
+            ],
+            "Sighash": "upgradeToAndCall(address,bytes)"
+        },
+        "0x7e644d79422f17c01e4894b5f4f588d331ebfa28653d42ae832dc59e38c9798f": {
+            "Type": "event",
+            "Name": "AdminChanged",
+            "Params": [
+                "address",
+                "address"
+            ],
+            "Sighash": "AdminChanged(address,address)"
+        },
+        "0x1cf3b03a6cf19fa2baba4df148e9dcabedea7f8a5c07840e207e5c089be95d3e": {
+            "Type": "event",
+            "Name": "BeaconUpgraded",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "BeaconUpgraded(address)"
+        },
+        "0x7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb3847402498": {
+            "Type": "event",
+            "Name": "Initialized",
+            "Params": [
+                "uint8"
+            ],
+            "Sighash": "Initialized(uint8)"
+        },
+        "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+            "Type": "event",
+            "Name": "OwnershipTransferred",
+            "Params": [
+                "address",
+                "address"
+            ],
+            "Sighash": "OwnershipTransferred(address,address)"
+        },
+        "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff": {
+            "Type": "event",
+            "Name": "RoleAdminChanged",
+            "Params": [
+                "bytes32",
+                "bytes32",
+                "bytes32"
+            ],
+            "Sighash": "RoleAdminChanged(bytes32,bytes32,bytes32)"
+        },
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d": {
+            "Type": "event",
+            "Name": "RoleGranted",
+            "Params": [
+                "bytes32",
+                "address",
+                "address"
+            ],
+            "Sighash": "RoleGranted(bytes32,address,address)"
+        },
+        "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b": {
+            "Type": "event",
+            "Name": "RoleRevoked",
+            "Params": [
+                "bytes32",
+                "address",
+                "address"
+            ],
+            "Sighash": "RoleRevoked(bytes32,address,address)"
+        },
+        "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b": {
+            "Type": "event",
+            "Name": "Upgraded",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "Upgraded(address)"
+        },
+        "0x4e8675cc": {
+            "Type": "error",
+            "Name": "PriceSpotterProcessingLib__Uint256OutOfBounds",
+            "Params": [
+                "bytes"
+            ],
+            "Sighash": "PriceSpotterProcessingLib__Uint256OutOfBounds(bytes)"
+        }
+    },
+    "PullOracle": {
+        "0x99e51e1c": {
+            "Type": "function",
+            "Name": "endPoint",
+            "Params": [],
+            "Sighash": "endPoint()"
+        },
+        "0xe4f6d9bb": {
+            "Type": "function",
+            "Name": "getLastPrice",
+            "Params": [
+                "bytes32",
+                "bytes32[]",
+                "tuple[]",
+                "bytes32",
+                "uint256",
+                "uint256"
+            ],
+            "Sighash": "getLastPrice(bytes32,bytes32[],(bytes32,bytes32,uint8)[],bytes32,uint256,uint256)"
+        },
+        "0x6910e334": {
+            "Type": "function",
+            "Name": "initialize",
+            "Params": [
+                "bytes32",
+                "address"
+            ],
+            "Sighash": "initialize(bytes32,address)"
+        },
+        "0xf0f0fce9": {
+            "Type": "function",
+            "Name": "latestUpdate",
+            "Params": [
+                "bytes32"
+            ],
+            "Sighash": "latestUpdate(bytes32)"
+        },
+        "0x8da5cb5b": {
+            "Type": "function",
+            "Name": "owner",
+            "Params": [],
+            "Sighash": "owner()"
+        },
+        "0xda1f12ab": {
+            "Type": "function",
+            "Name": "protocolId",
+            "Params": [],
+            "Sighash": "protocolId()"
+        },
+        "0x52d1902d": {
+            "Type": "function",
+            "Name": "proxiableUUID",
+            "Params": [],
+            "Sighash": "proxiableUUID()"
+        },
+        "0x715018a6": {
+            "Type": "function",
+            "Name": "renounceOwnership",
+            "Params": [],
+            "Sighash": "renounceOwnership()"
+        },
+        "0xf2fde38b": {
+            "Type": "function",
+            "Name": "transferOwnership",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "transferOwnership(address)"
+        },
+        "0x76bf54ad": {
+            "Type": "function",
+            "Name": "updateMultipleAssets",
+            "Params": [
+                "bytes"
+            ],
+            "Sighash": "updateMultipleAssets(bytes)"
+        },
+        "0x3659cfe6": {
+            "Type": "function",
+            "Name": "upgradeTo",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "upgradeTo(address)"
+        },
+        "0x4f1ef286": {
+            "Type": "function",
+            "Name": "upgradeToAndCall",
+            "Params": [
+                "address",
+                "bytes"
+            ],
+            "Sighash": "upgradeToAndCall(address,bytes)"
+        },
+        "0x7e644d79422f17c01e4894b5f4f588d331ebfa28653d42ae832dc59e38c9798f": {
+            "Type": "event",
+            "Name": "AdminChanged",
+            "Params": [
+                "address",
+                "address"
+            ],
+            "Sighash": "AdminChanged(address,address)"
+        },
+        "0x1cf3b03a6cf19fa2baba4df148e9dcabedea7f8a5c07840e207e5c089be95d3e": {
+            "Type": "event",
+            "Name": "BeaconUpgraded",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "BeaconUpgraded(address)"
+        },
+        "0x7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb3847402498": {
+            "Type": "event",
+            "Name": "Initialized",
+            "Params": [
+                "uint8"
+            ],
+            "Sighash": "Initialized(uint8)"
+        },
+        "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+            "Type": "event",
+            "Name": "OwnershipTransferred",
+            "Params": [
+                "address",
+                "address"
+            ],
+            "Sighash": "OwnershipTransferred(address,address)"
+        },
+        "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b": {
+            "Type": "event",
+            "Name": "Upgraded",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "Upgraded(address)"
+        },
+        "0x2fab4a04": {
+            "Type": "error",
+            "Name": "PullOracle__ConsensusRateNotSetForProtocol",
+            "Params": [
+                "bytes32"
+            ],
+            "Sighash": "PullOracle__ConsensusRateNotSetForProtocol(bytes32)"
+        },
+        "0x14a4fac0": {
+            "Type": "error",
+            "Name": "PullOracle__InsufficientSignatures",
+            "Params": [
+                "uint256",
+                "uint256"
+            ],
+            "Sighash": "PullOracle__InsufficientSignatures(uint256,uint256)"
+        },
+        "0x3734bc97": {
+            "Type": "error",
+            "Name": "PullOracle__InvalidMerkleProof",
+            "Params": [
+                "bytes32",
+                "bytes32",
+                "bytes32[]"
+            ],
+            "Sighash": "PullOracle__InvalidMerkleProof(bytes32,bytes32,bytes32[])"
+        },
+        "0x3ed1d59d": {
+            "Type": "error",
+            "Name": "PullOracle__InvalidSigner",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "PullOracle__InvalidSigner(address)"
+        },
+        "0xcd986cec": {
+            "Type": "error",
+            "Name": "PullOracle__TransmittersNotSetForProtocol",
+            "Params": [
+                "bytes32"
+            ],
+            "Sighash": "PullOracle__TransmittersNotSetForProtocol(bytes32)"
+        }
+    },
+    "SignaturesProcessingLib": {
+        "0x2a0acc6a": {
+            "Type": "function",
+            "Name": "ADMIN",
+            "Params": [],
+            "Sighash": "ADMIN()"
+        },
+        "0xa217fddf": {
+            "Type": "function",
+            "Name": "DEFAULT_ADMIN_ROLE",
+            "Params": [],
+            "Sighash": "DEFAULT_ADMIN_ROLE()"
+        },
+        "0x6938ffc1": {
+            "Type": "function",
+            "Name": "finalizeData",
+            "Params": [
+                "bytes32",
+                "bytes[]",
+                "address[]"
+            ],
+            "Sighash": "finalizeData(bytes32,bytes[],address[])"
+        },
+        "0x248a9ca3": {
+            "Type": "function",
+            "Name": "getRoleAdmin",
+            "Params": [
+                "bytes32"
+            ],
+            "Sighash": "getRoleAdmin(bytes32)"
+        },
+        "0x2f2ff15d": {
+            "Type": "function",
+            "Name": "grantRole",
+            "Params": [
+                "bytes32",
+                "address"
+            ],
+            "Sighash": "grantRole(bytes32,address)"
+        },
+        "0x91d14854": {
+            "Type": "function",
+            "Name": "hasRole",
+            "Params": [
+                "bytes32",
+                "address"
+            ],
+            "Sighash": "hasRole(bytes32,address)"
+        },
+        "0x935fce7c": {
+            "Type": "function",
+            "Name": "initialize",
+            "Params": [
+                "address[1]"
+            ],
+            "Sighash": "initialize(address[1])"
+        },
+        "0x8da5cb5b": {
+            "Type": "function",
+            "Name": "owner",
+            "Params": [],
+            "Sighash": "owner()"
+        },
+        "0x52d1902d": {
+            "Type": "function",
+            "Name": "proxiableUUID",
+            "Params": [],
+            "Sighash": "proxiableUUID()"
+        },
+        "0x715018a6": {
+            "Type": "function",
+            "Name": "renounceOwnership",
+            "Params": [],
+            "Sighash": "renounceOwnership()"
+        },
+        "0x36568abe": {
+            "Type": "function",
+            "Name": "renounceRole",
+            "Params": [
+                "bytes32",
+                "address"
+            ],
+            "Sighash": "renounceRole(bytes32,address)"
+        },
+        "0xd547741f": {
+            "Type": "function",
+            "Name": "revokeRole",
+            "Params": [
+                "bytes32",
+                "address"
+            ],
+            "Sighash": "revokeRole(bytes32,address)"
+        },
+        "0x540bc5ea": {
+            "Type": "function",
+            "Name": "SIGNATURE_LENGTH",
+            "Params": [],
+            "Sighash": "SIGNATURE_LENGTH()"
+        },
+        "0x01ffc9a7": {
+            "Type": "function",
+            "Name": "supportsInterface",
+            "Params": [
+                "bytes4"
+            ],
+            "Sighash": "supportsInterface(bytes4)"
+        },
+        "0xf2fde38b": {
+            "Type": "function",
+            "Name": "transferOwnership",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "transferOwnership(address)"
+        },
+        "0x3659cfe6": {
+            "Type": "function",
+            "Name": "upgradeTo",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "upgradeTo(address)"
+        },
+        "0x4f1ef286": {
+            "Type": "function",
+            "Name": "upgradeToAndCall",
+            "Params": [
+                "address",
+                "bytes"
+            ],
+            "Sighash": "upgradeToAndCall(address,bytes)"
+        },
+        "0x7e644d79422f17c01e4894b5f4f588d331ebfa28653d42ae832dc59e38c9798f": {
+            "Type": "event",
+            "Name": "AdminChanged",
+            "Params": [
+                "address",
+                "address"
+            ],
+            "Sighash": "AdminChanged(address,address)"
+        },
+        "0x1cf3b03a6cf19fa2baba4df148e9dcabedea7f8a5c07840e207e5c089be95d3e": {
+            "Type": "event",
+            "Name": "BeaconUpgraded",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "BeaconUpgraded(address)"
+        },
+        "0x7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb3847402498": {
+            "Type": "event",
+            "Name": "Initialized",
+            "Params": [
+                "uint8"
+            ],
+            "Sighash": "Initialized(uint8)"
+        },
+        "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+            "Type": "event",
+            "Name": "OwnershipTransferred",
+            "Params": [
+                "address",
+                "address"
+            ],
+            "Sighash": "OwnershipTransferred(address,address)"
+        },
+        "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff": {
+            "Type": "event",
+            "Name": "RoleAdminChanged",
+            "Params": [
+                "bytes32",
+                "bytes32",
+                "bytes32"
+            ],
+            "Sighash": "RoleAdminChanged(bytes32,bytes32,bytes32)"
+        },
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d": {
+            "Type": "event",
+            "Name": "RoleGranted",
+            "Params": [
+                "bytes32",
+                "address",
+                "address"
+            ],
+            "Sighash": "RoleGranted(bytes32,address,address)"
+        },
+        "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b": {
+            "Type": "event",
+            "Name": "RoleRevoked",
+            "Params": [
+                "bytes32",
+                "address",
+                "address"
+            ],
+            "Sighash": "RoleRevoked(bytes32,address,address)"
+        },
+        "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b": {
+            "Type": "event",
+            "Name": "Upgraded",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "Upgraded(address)"
+        },
+        "0xb6276179": {
+            "Type": "error",
+            "Name": "SignaturesProcessingLib__DataVotersLengthMismatch",
+            "Params": [],
+            "Sighash": "SignaturesProcessingLib__DataVotersLengthMismatch()"
+        },
+        "0x4df40447": {
+            "Type": "error",
+            "Name": "SignaturesProcessingLib__EmptyData",
+            "Params": [],
+            "Sighash": "SignaturesProcessingLib__EmptyData()"
+        },
+        "0x33958ebd": {
+            "Type": "error",
+            "Name": "SignaturesProcessingLib__EmptyDataKey",
+            "Params": [],
+            "Sighash": "SignaturesProcessingLib__EmptyDataKey()"
+        },
+        "0x3b9db005": {
+            "Type": "error",
+            "Name": "SignaturesProcessingLib__EmptyVerifiedVoters",
+            "Params": [],
+            "Sighash": "SignaturesProcessingLib__EmptyVerifiedVoters()"
+        },
+        "0x0e6a647f": {
+            "Type": "error",
+            "Name": "SignaturesProcessingLib__InvalidSignatureLength",
+            "Params": [],
+            "Sighash": "SignaturesProcessingLib__InvalidSignatureLength()"
+        },
+        "0x0aa7a8c2": {
+            "Type": "error",
+            "Name": "SignaturesProcessingLib__InvalidSigner",
+            "Params": [],
+            "Sighash": "SignaturesProcessingLib__InvalidSigner()"
+        },
+        "0xf6d9e6aa": {
+            "Type": "error",
+            "Name": "SignaturesProcessingLib__InvalidVerification",
+            "Params": [],
+            "Sighash": "SignaturesProcessingLib__InvalidVerification()"
+        },
+        "0x43d43050": {
+            "Type": "error",
+            "Name": "SignaturesProcessingLib__ZeroVoterAddress",
+            "Params": [],
+            "Sighash": "SignaturesProcessingLib__ZeroVoterAddress()"
+        }
+    },
+    "IProcessingLib": {
+        "0x6938ffc1": {
+            "Type": "function",
+            "Name": "finalizeData",
+            "Params": [
+                "bytes32",
+                "bytes[]",
+                "address[]"
+            ],
+            "Sighash": "finalizeData(bytes32,bytes[],address[])"
+        }
+    },
+    "IPullOracle": {
+        "0xe4f6d9bb": {
+            "Type": "function",
+            "Name": "getLastPrice",
+            "Params": [
+                "bytes32",
+                "bytes32[]",
+                "tuple[]",
+                "bytes32",
+                "uint256",
+                "uint256"
+            ],
+            "Sighash": "getLastPrice(bytes32,bytes32[],(bytes32,bytes32,uint8)[],bytes32,uint256,uint256)"
+        },
+        "0xf0f0fce9": {
+            "Type": "function",
+            "Name": "latestUpdate",
+            "Params": [
+                "bytes32"
+            ],
+            "Sighash": "latestUpdate(bytes32)"
+        }
+    },
+    "UnsafeCalldataBytesLib": {},
+    "PullOracleConsumer": {
+        "0xe4f6d9bb": {
+            "Type": "function",
+            "Name": "getLastPrice",
+            "Params": [
+                "bytes32",
+                "bytes32[]",
+                "tuple[]",
+                "bytes32",
+                "uint256",
+                "uint256"
+            ],
+            "Sighash": "getLastPrice(bytes32,bytes32[],(bytes32,bytes32,uint8)[],bytes32,uint256,uint256)"
+        },
+        "0xc4d66de8": {
+            "Type": "function",
+            "Name": "initialize",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "initialize(address)"
+        },
+        "0x4b92ff72": {
+            "Type": "function",
+            "Name": "lastPrice",
+            "Params": [
+                "bytes32"
+            ],
+            "Sighash": "lastPrice(bytes32)"
+        },
+        "0x8da5cb5b": {
+            "Type": "function",
+            "Name": "owner",
+            "Params": [],
+            "Sighash": "owner()"
+        },
+        "0x52d1902d": {
+            "Type": "function",
+            "Name": "proxiableUUID",
+            "Params": [],
+            "Sighash": "proxiableUUID()"
+        },
+        "0x7b73f001": {
+            "Type": "function",
+            "Name": "pullOracle",
+            "Params": [],
+            "Sighash": "pullOracle()"
+        },
+        "0x715018a6": {
+            "Type": "function",
+            "Name": "renounceOwnership",
+            "Params": [],
+            "Sighash": "renounceOwnership()"
+        },
+        "0xea102134": {
+            "Type": "function",
+            "Name": "setPullOracle",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "setPullOracle(address)"
+        },
+        "0xf2fde38b": {
+            "Type": "function",
+            "Name": "transferOwnership",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "transferOwnership(address)"
+        },
+        "0x3659cfe6": {
+            "Type": "function",
+            "Name": "upgradeTo",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "upgradeTo(address)"
+        },
+        "0x4f1ef286": {
+            "Type": "function",
+            "Name": "upgradeToAndCall",
+            "Params": [
+                "address",
+                "bytes"
+            ],
+            "Sighash": "upgradeToAndCall(address,bytes)"
+        },
+        "0x7e644d79422f17c01e4894b5f4f588d331ebfa28653d42ae832dc59e38c9798f": {
+            "Type": "event",
+            "Name": "AdminChanged",
+            "Params": [
+                "address",
+                "address"
+            ],
+            "Sighash": "AdminChanged(address,address)"
+        },
+        "0x1cf3b03a6cf19fa2baba4df148e9dcabedea7f8a5c07840e207e5c089be95d3e": {
+            "Type": "event",
+            "Name": "BeaconUpgraded",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "BeaconUpgraded(address)"
+        },
+        "0x7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb3847402498": {
+            "Type": "event",
+            "Name": "Initialized",
+            "Params": [
+                "uint8"
+            ],
+            "Sighash": "Initialized(uint8)"
+        },
+        "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+            "Type": "event",
+            "Name": "OwnershipTransferred",
+            "Params": [
+                "address",
+                "address"
+            ],
+            "Sighash": "OwnershipTransferred(address,address)"
+        },
+        "0x6cb01cf7dd40478a63fbf84642549830ab78efca6f0306d04c9379e55cd8dd03": {
+            "Type": "event",
+            "Name": "PriceUpdated",
+            "Params": [
+                "uint256",
+                "uint256",
+                "address",
+                "uint256"
+            ],
+            "Sighash": "PriceUpdated(uint256,uint256,address,uint256)"
+        },
+        "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b": {
+            "Type": "event",
+            "Name": "Upgraded",
+            "Params": [
+                "address"
+            ],
+            "Sighash": "Upgraded(address)"
+        }
+    }
+}

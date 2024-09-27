@@ -1,0 +1,57 @@
+{
+  "protocolID": "universal-data-feeds",
+  "manualTransmitters": [
+    "0x57FA138B40d72a5217bF101A3fe0eC3223A8e289",
+    "0xa7e83cd863D0B6248f39e9C10B4a46F391388020",
+    "0xE12b26c0ACf5a80951C766b587b7d254008a98a6"
+  ],
+  "proposers": [
+    "0x2854f03983008b38fCd493C33F15C15D73F12366"
+  ],
+  "spotters": [
+    {
+      "sourceID": "prices-feed",
+      "consensusRate": 6700,
+      "minFinalizationInterval": 20,
+      "onlyAllowedKeys": true,
+      "allowedKeys": [
+        "NGL/USD",
+        "ETH/USD",
+        "BTC/USD",
+        "ERN/USD"
+      ]
+    },
+    {
+      "sourceID": "merkle-sigs",
+      "consensusRate": 7500,
+      "minFinalizationInterval": 0,
+      "onlyAllowedKeys": false,
+      "allowedKeys": [ ]
+    },
+    {
+      "sourceID": "gas-feed",
+      "consensusRate": 6700,
+      "minFinalizationInterval": 20,
+      "onlyAllowedKeys": true,
+      "allowedKeys": [
+        "GAS-ETH",
+        "GAS-BSC"
+      ]
+    }
+  ],
+  "protocolParams": {
+    "msgBetAmount": 10000,
+    "dataBetAmount": 10000,
+    "msgBetReward": 0,
+    "msgBetFirstReward": 0,
+    "dataBetReward": 0,
+    "dataBetFirstReward": 0,
+    "consensusTargetRate": 7500
+  },
+  "transmittersParams": {
+    "maxTransmitters": 12,
+    "minDelegateAmount": 300,
+    "minPersonalAmount": 300
+  }
+}
+

@@ -1,0 +1,82 @@
+{
+    "entangle": {
+        "EndPointGov": "0x502456617eDA3C0147c71ceD21c62A8295F74F57",
+        "EndPoint": "0x8311F07c630f597BfE6255FFB40E0B00119DA58b",
+        "MasterSmartContract": "0x2C36e392d6cD4A7c24Cd1C73d5681d0863d8B025",
+        "MSCProposeHelper": "0x72C60041657e3815f670990760c8936897A53DBE",
+        "GlobalConfig": "0xFcC265D299308f02D5dfF755fCE2d0B5F5046B11",
+        "BetManager": "0xA167f28B131eB5deF773c9504f0Be0e4bCDcaCd3",
+        "ExternalDeveloperHub": "0xd1ce1b72d5ed904992BB0347962b77E890444a89",
+        "AgentManager": "0xc69782b48621547d4E5971732F68423597a33AAF",
+        "RoundManager": "0x0D01bE82EE18df3a22BAB059a07c3265E9eca00e",
+        "StakingManager": "0x1D393c431E567a08679913951E0f250D660279c6",
+        "StreamDataSpotterFactory": "0x8e99A2f10c34A2b2dF0974806af49918aD42FaC4",
+        "MasterStreamDataSpotter": "0x77E0F23cBbcF0598DBb3c86d95Ff886aa82Aa648"
+    },
+    "ethereum": {
+        "EndPointGov": "0x3F97f08dDB1664FD0a3Dbb8b965C9bd36d422f9B",
+        "EndPoint": "0x60322D4E60fDe2901dDBb4a78Fc9310866ba4be2"
+    },
+    "mantle": {
+        "EndPointGov": "0x3F97f08dDB1664FD0a3Dbb8b965C9bd36d422f9B",
+        "EndPoint": "0x60322D4E60fDe2901dDBb4a78Fc9310866ba4be2"
+    },
+    "binance": {
+        "EndPointGov": "0x3F97f08dDB1664FD0a3Dbb8b965C9bd36d422f9B",
+        "EndPoint": "0x60322D4E60fDe2901dDBb4a78Fc9310866ba4be2"
+    },
+    "base": {
+        "EndPointGov": "0x3F97f08dDB1664FD0a3Dbb8b965C9bd36d422f9B",
+        "EndPoint": "0x60322D4E60fDe2901dDBb4a78Fc9310866ba4be2"
+    },
+    "arbitrum": {
+        "EndPointGov": "0x24B3a730538723eeB0B0b401F6120d87596dC4DC",
+        "EndPoint": "0x24f971725835a9ffeB3eeEE7434FD8d0C630d28C"
+    },
+    "blast": {
+        "EndPointGov": "0x3F97f08dDB1664FD0a3Dbb8b965C9bd36d422f9B",
+        "EndPoint": "0x60322D4E60fDe2901dDBb4a78Fc9310866ba4be2"
+    },
+    "linea": {
+        "EndPointGov": "0x3F97f08dDB1664FD0a3Dbb8b965C9bd36d422f9B",
+        "EndPoint": "0x60322D4E60fDe2901dDBb4a78Fc9310866ba4be2"
+    },
+    "tent": {
+        "EndPointGov": "0x08a76C6241d345cF75de27E6Bae29f9f28cf5D60",
+        "EndPoint": "0x46E6528CA08EAC87d11461d61Bc59E7ED392BB63",
+        "MasterSmartContract": "0x3f0A86C7e1cf8883A0FbDB11B671BE849168496b",
+        "MSCProposeHelper": "0x1C96e83F0dB449035091e4b410d699b81383bee7",
+        "GlobalConfig": "0xC4Fb6851b49dc750d8fdAe98752e0064572aB172",
+        "BetManager": "0xed3b303FD7c3e899df0c0c6F8EBf5Ae75f29dF65",
+        "ExternalDeveloperHub": "0xb530363eEfC35C05aBfC0103250c035cAF801f73",
+        "AgentManager": "0x1594241aD5fD4c2D3471E86cF09888747cB383c2",
+        "RoundManager": "0x4Ada07F5bF84953cB7491D374bdF8cCeFD9091A0",
+        "StakingManager": "0x500E501b4585003d5186DB03e92B8aB98366994B",
+        "StreamDataSpotterFactory": "0x2Ebd87eb0D658e04fA4E6305Ce393D86fe88940B",
+        "MasterStreamDataSpotter": "0xd22361112D97ed36bF6D18B4e8fA9F1b792D7223"
+    },
+    "eth_sepolia": {
+        "EndPointGov": "0x302276b8f0101b38dD760Dad03CEB6eCA0b03B61",
+        "EndPoint": "0x2aD3e0F3EAcf63B28C446216C3B7904f264dDDEB"
+    },
+    "arb_sepolia": {
+        "EndPointGov": "0xc38A50626A223eD404B94a6A4EB015dac272E8E5",
+        "EndPoint": "0x0462D07DB2F2465e280A7887c4E064F5d4699Fbe"
+    },
+    "mantle_sepolia": {
+        "EndPointGov": "0xc38A50626A223eD404B94a6A4EB015dac272E8E5",
+        "EndPoint": "0x0462D07DB2F2465e280A7887c4E064F5d4699Fbe"
+    },
+    "core": {
+        "EndPointGov": "0x28A5AeF040e0D5DaE32FE7Bf416E4FBbdE531E46",
+        "EndPoint": "0x9101a6fAf6c9321d81E03Af3fE5E88722afCBA35"
+    },
+    "xlayer": {
+        "EndPointGov": "0x91b076D3B5883a099502d025BCc9a422f5607061",
+        "EndPoint": "0xE998283EC3e6090321569FD41f70Fbb6809A7Ba9"
+    },
+    "optimism": {
+        "EndPointGov": "0x91b076D3B5883a099502d025BCc9a422f5607061",
+        "EndPoint": "0xE998283EC3e6090321569FD41f70Fbb6809A7Ba9"
+    }
+}

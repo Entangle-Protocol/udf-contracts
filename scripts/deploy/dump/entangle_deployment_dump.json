@@ -1,0 +1,28 @@
+{
+  "protocolID": "universal-data-feeds",
+  "spotters": [
+    {
+      "sourceID": "prices-feed",
+      "processingLib": "0x0eaA3c2a0FB455c3dfad051dFeb0dEDA0a3A58B7",
+      "spotter": "0xA2c08BE0609c1d37c33F96752cbbb384428dd565"
+    },
+    {
+      "sourceID": "merkle-sigs",
+      "processingLib": "0xc394dC85dF68F56Fe7660379241363A3CAa7AbB5",
+      "spotter": "0x4Ed908bA8EACB95c5C860D67d4bDC70AA28E44ad"
+    },
+    {
+      "sourceID": "gas-feed",
+      "processingLib": "0xfC85E9E73b526459Ec81101ed598665F80e27345",
+      "spotter": "0x5481B879DEEa9f12A00C8aF24219Da1969A30e38"
+    }
+  ],
+  "manualTransmitters": [
+    "0x57FA138B40d72a5217bF101A3fe0eC3223A8e289",
+    "0xa7e83cd863D0B6248f39e9C10B4a46F391388020",
+    "0xE12b26c0ACf5a80951C766b587b7d254008a98a6"
+  ],
+  "proposers": [
+    "0x2854f03983008b38fCd493C33F15C15D73F12366"
+  ]
+}

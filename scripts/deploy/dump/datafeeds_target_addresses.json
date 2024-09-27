@@ -1,0 +1,8 @@
+{
+  "eth_sepolia": {
+    "PullOracle": "0x0b2d8Ef1D9104c4Df5C89F00B645Ce8bAa56DeB5"
+  },
+  "mantle_sepolia": {
+    "PullOracle": "0x751c47110351806e41ccDA4C181a50edfA6b63E0"
+  }
+}

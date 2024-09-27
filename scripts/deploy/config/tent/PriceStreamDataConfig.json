@@ -1,0 +1,102 @@
+{
+  "protocolID": "universal-data-feeds3",
+  "manualTransmitters": [
+    "0xEfCF6f62254F76d9eF9bc06C843EAc97F0aA1723",
+    "0xE8a5D7DE6c51ae39326f93180F610F5cb8f0B4CC",
+    "0xBC506a4af4d452c2908CE6c590028EFD8EEC7962"
+  ],
+  "proposers": [
+    "0xC6012b0fd905a62B0f2Cb107e00D0720aFfaFA03"
+  ],
+  "spotters": [
+    {
+      "sourceID": "prices-feed1",
+      "consensusRate": 6700,
+      "minFinalizationInterval": 20,
+      "onlyAllowedKeys": true,
+      "allowedKeys": [
+        "NGL/USD",
+        "ETH/USD",
+        "BTC/USD",
+        "ERN/USD",
+        "BNB/USD",
+        "SOL/USD",
+        "XRP/USD",
+        "DOGE/USD",
+        "TRX/USD",
+        "TON/USD",
+        "ADA/USD",
+        "AVAX/USD",
+        "SHIB/USD",
+        "LINK/USD",
+        "DOT/USD",
+        "BCH/USD",
+        "LTC/USD",
+        "NEAR/USD",
+        "UNI/USD",
+        "ICP/USD",
+        "FET/USD",
+        "PEPE/USD",
+        "SUI/USD",
+        "APT/USD",
+        "XLM/USD",
+        "POL/USD",
+        "RENDER/USD",
+        "STX/USD",
+        "TAO/USD",
+        "AAVE/USD",
+        "WLD/USD",
+        "SUPER/USD",
+        "IMX/USD",
+        "SAND/USD",
+        "MANA/USD",
+        "ENJ/USD",
+        "BICO/USD",
+        "AIT/USD"
+      ]
+    },
+    {
+      "sourceID": "merkle-sigs",
+      "consensusRate": 7500,
+      "minFinalizationInterval": 0,
+      "onlyAllowedKeys": false,
+      "allowedKeys": [ ]
+    },
+    {
+      "sourceID": "gas-feed1",
+      "consensusRate": 6700,
+      "minFinalizationInterval": 20,
+      "onlyAllowedKeys": true,
+      "allowedKeys": [
+        "GAS-ETH",
+        "GAS-BSC"
+      ]
+    },
+    {
+      "sourceID": "integrator-feed",
+      "consensusRate": 6700,
+      "minFinalizationInterval": 20,
+      "onlyAllowedKeys": true,
+      "allowedKeys": [
+        "KASU-REAL-LOSSES",
+        "KASU-UNREAL-LOSSES",
+        "KASU-PROFITS"
+      ]
+    }
+  ],
+  "protocolParams": {
+    "msgBetAmount": 10000,
+    "dataBetAmount": 10000,
+    "msgBetReward": 0,
+    "msgBetFirstReward": 0,
+    "dataBetReward": 0,
+    "dataBetFirstReward": 0,
+    "consensusTargetRate": 7500
+  },
+  "transmittersParams": {
+    "maxTransmitters": 12,
+    "minDelegateAmount": 300,
+    "minPersonalAmount": 300
+  }
+}
+
