@@ -1,6 +1,6 @@
-# Universal Data Feeds (UDF)
+# Universal Data Feeds (UDF) Smart Contracts
 
-This repository holds configurable UDF contracts used for data collection, as well as smart contracts used on target chain to receive and verify the updates.
+This repository contains configurable Universal Data Feeds (UDF) smart contracts for creating new data collection, along with smart contracts deployed on the target chains
 
 ## Table of Contents
 
