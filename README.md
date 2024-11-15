@@ -16,19 +16,19 @@ Generally, describe the project and readme and provide and additional details, t
 
 First, clone the repo.
 
-```sh
+```
 $ git clone git@github.com:Entangle-Protocol/udf-contracts.git
 ```
 
 Install dependencies
 
-```sh
+```
 $ yarn install
 ```
 
 Run tests
 
-```sh
+```
 $ yarn hardhat test
 ```
 
@@ -36,8 +36,15 @@ $ yarn hardhat test
 
 The repository contains various utility scripts to interact with smart contracts on oralce network (EOB). The scripts are integrated as hardhat tasks and can be navigated through the CLI under the supported categories:
 
-* Scripts to deploy and live actions on the deployed protocol instance - `$ yarn hardhat datafeeds:deploy`
-* Scripts to observe the state of the deployed protocol - `$ yarn hardhat datafeeds:stat`
+* Scripts to deploy and live actions on the deployed protocol instance 
+```
+$ yarn hardhat datafeeds:deploy
+```
+
+* Scripts to observe the state of the deployed protocol 
+```
+$ yarn hardhat datafeeds:stat
+```
 
 ## Changelog
 
