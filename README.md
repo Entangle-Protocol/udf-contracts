@@ -1,26 +1,56 @@
 # Universal Data Feeds (UDF)
-Access tools for creating secure, verifiable data oracles from any data source with delivery to any EVM and non-EVM networks. The project includes modules for developing custom oracles as well as for preparing APIs for deployment in the public Universal Data Feeds network.
 
-# Price Oracle Smart Contracts
+This repository holds configurable UDF contracts used for data collection, as well as smart contracts used on target chain to receive and verify the updates.
 
-Repo for Entangle Data Feeds contracts.
+## Table of Contents
 
-# CLI commands
+- [Installation](#installation)
+- [Usage](#usage)
+- [Changelog](#changelog)
+- [Contributing](#contributing)
+- [License](#license)
 
-Deploy script is executed through hardhat task:
+Generally, describe the project and readme and provide and additional details, that will help community to interact with your repository
 
-`$ yarn hardhat deploy-stream-data`
+## Installation
 
-The following commands are accessible through deploy script.
+First, clone the repo.
 
-* Deploy PullOracle contracts on destination chains
-* Register Data Feeds protocol on External Developer Hub
-* Initialize Data Feeds protocol
+```sh
+$ git clone git@github.com:Entangle-Protocol/udf-contracts.git
+```
 
-# The order in which deploy must be called
+Install dependencies
 
-1. Deploy PullOracle contracts on dest chains
-2. Register PriceStreamData protocol on MAS
-3. Initialize PriceStreamData protocol
-3. Deploy PriceStreamData spotters
-3. Additional steps after initializing and round turns
+```sh
+$ yarn install
+```
+
+Run tests
+
+```sh
+$ yarn hardhat test
+```
+
+## Usage
+
+The repository contains various utility scripts to interact with smart contracts on oralce network (EOB). The scripts are integrated as hardhat tasks and can be navigated through the CLI under the supported categories:
+
+* Scripts to deploy and live actions on the deployed protocol instance - `$ yarn hardhat datafeeds:deploy`
+* Scripts to observe the state of the deployed protocol - `$ yarn hardhat datafeeds:stat`
+
+## Changelog
+
+[Changelog history](CHANGELOG.md)
+
+## Contributing
+
+[Contributing information](CONTRIBUTING.md)
+
+## Code of conduct
+
+[Regulations](CODE_OF_CONDUCT.md)
+
+## License
+
+[License](LICENSE)
